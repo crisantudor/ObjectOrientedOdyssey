@@ -15,6 +15,8 @@ namespace ObjectOrientedOdyssey
         private int numarNuclee;
 
         // constructor
+
+
         public Procesor()
         {
             producator = "-";
