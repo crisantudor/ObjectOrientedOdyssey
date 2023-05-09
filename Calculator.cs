@@ -19,11 +19,11 @@ namespace ObjectOrientedOdyssey
         public Calculator()
         {
             // Default constructor
-            this.gpu = "";
-            this.marca = "";
-            this.stocare = "";
-            this.sursa = 0;
-            this.ram = 0;
+            this.gpu = "-";
+            this.marca = "-";
+            this.stocare = "-";
+            this.sursa = 1;
+            this.ram = 1;
             this.procesor = new Procesor();
         }
 

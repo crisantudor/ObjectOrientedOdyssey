@@ -4,7 +4,7 @@ using ObjectOrientedOdyssey;
 Console.WriteLine("Hello, World!");
 
 // Creem obiecte de tipul Calculator
-Calculator calculatorDefault = new(); // apelat prin constructor default
+Calculator calculatorDefault = new(); // apelat prin constructor default, se creaza obiect
 Calculator calculatorCustom = new("Nvidia", "Lenovo", "SSD", 240, 16);
 
 // Creem obiecte de mai multe tipuri
@@ -34,4 +34,3 @@ calculatorDefault.AfiseazaDateleObiectului(calculatorDefault.GetRam());
 Calculator referintaLaLaptopulPtFaculta = laptopulPtFaculta;
 referintaLaLaptopulPtFaculta.AfiseazaDateleObiectului();
 
-Console.ReadKey();
