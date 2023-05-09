@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedOdyssey
 {
+    // clasa A din diagrama
     internal class Calculator
     {
         protected string marca;

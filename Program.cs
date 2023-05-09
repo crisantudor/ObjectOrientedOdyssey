@@ -2,7 +2,7 @@
 using ObjectOrientedOdyssey;
 
 Console.WriteLine("Hello, World!");
-
+// clasa Main, int main din cpp
 // Creem obiecte de tipul Calculator
 Calculator calculatorDefault = new(); // apelat prin constructor default, se creaza obiect
 Calculator calculatorCustom = new("Nvidia", "Lenovo", "SSD", 240, 16);

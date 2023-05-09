@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedOdyssey
 {
+    //clasa B din diagrama
     internal class CalculatorLaptop : Calculator
     {
         protected int batteryLife;
